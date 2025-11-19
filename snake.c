@@ -12,7 +12,7 @@
 #define GRID_W (WIN_W / SNAKE_SIZE)
 #define GRID_H (WIN_H / SNAKE_SIZE)
 
-// Variables that can be changes from commands
+// Variables that can be changed from commands
 int mute = FALSE;
 
 int warpper = FALSE;
@@ -648,5 +648,6 @@ int WINAPI WinMain (HINSTANCE hinstance, HINSTANCE hprevinstance, LPSTR lpcmdlin
     return msg.wParam;
 
 }
+
 
 /*---------------------END-------------------------*/
